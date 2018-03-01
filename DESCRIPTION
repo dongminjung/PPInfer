@@ -1,32 +1,15 @@
-# PPInfer
-
 Package: PPInfer
-
 Type: Package
-
-Title: Inferring functionally related proteins using protein interaction networks
-
+Title: Inferring functionally related proteins using protein
+        interaction networks
 Description: Interactions between proteins occur in many, if not most, biological processes. Most proteins perform their functions in networks associated with other proteins and other biomolecules. This fact has motivated the development of a variety of experimental methods for the identification of protein interactions. This variety has in turn ushered in the development of numerous different computational approaches for modeling and predicting protein interactions. Sometimes an experiment is aimed at identifying proteins closely related to some interesting proteins. A network based statistical learning method is used to infer the putative functions of proteins from the known functions of its neighboring proteins on a PPI network. This package identifies such proteins often involved in the same or similar biological functions.
-
 Version: 1.5.1
-
 Date: 2017-02-10
-
 Author: Dongmin Jung, Xijin Ge
-
 Maintainer: Dongmin Jung <dmdmjung@gmail.com>
-
 Depends: biomaRt, fgsea, kernlab, ggplot2, igraph, STRINGdb, yeastExpData
-
 Suggests:
-
 License: Artistic-2.0
-
 biocViews: Software, StatisticalMethod, Network, GraphAndNetwork, GeneSetEnrichment, NetworkEnrichment, Pathways
-
 NeedsCompilation: no
-
-
-
-
 
